@@ -1,0 +1,10 @@
+Track 3/xj/xj1ib_re3/config.json
+Track 3/xj/xj1ib_re3/cos_gender_Bangla.npy
+Track 3/xj/xj1ib_re3/cos_gender_English.npy
+Track 3/xj/xj1ib_re3/cos_no_gender_Bangla.npy
+Track 3/xj/xj1ib_re3/cos_no_gender_English.npy
+Track 3/xj/xj1ib_re3/gender/sub_score_v4_Bangla_unheard.txt
+Track 3/xj/xj1ib_re3/gender/sub_score_v4_English_heard.txt
+Track 3/xj/xj1ib_re3/no_gender/sub_score_v4_Bangla_unheard.txt
+Track 3/xj/xj1ib_re3/no_gender/sub_score_v4_English_heard.txt
+Track 3/xj/xj1ib_re3/rows.json

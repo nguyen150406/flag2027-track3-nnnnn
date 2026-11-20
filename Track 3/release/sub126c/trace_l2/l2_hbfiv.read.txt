@@ -1,0 +1,66 @@
+Track 1/data_manifests/speaker_splits.json
+Track 2/clip01_cache/direct/face_embeddings.float32.npy
+Track 2/img01_b01_cache/direct/face_embeddings.float32.npy
+Track 3/caches/ext/exclude_bengali_v3.csv
+Track 3/caches/ext/flag_voice_r293.float32.npy
+Track 3/caches/ext/flag_voice_wsv.float32.npy
+Track 3/caches/ext/rows_vb.csv
+Track 3/caches/ext/rows_vox2.csv
+Track 3/caches/ext/vb_face_clip.float32.npy
+Track 3/caches/ext/vb_face_clip.ok.npy
+Track 3/caches/ext/vb_face_farl.float32.npy
+Track 3/caches/ext/vb_face_farl.ok.npy
+Track 3/caches/ext/vb_face_ibl.float32.npy
+Track 3/caches/ext/vb_face_ibl.ok.npy
+Track 3/caches/ext/vb_voice_ibv.float32.npy
+Track 3/caches/ext/vb_voice_ibv.ok.npy
+Track 3/caches/ext/vb_voice_r293.float32.npy
+Track 3/caches/ext/vb_voice_r293.ok.npy
+Track 3/caches/ext/vb_voice_simam.float32.npy
+Track 3/caches/ext/vb_voice_simam.ok.npy
+Track 3/caches/ext/vb_voice_wsv.float32.npy
+Track 3/caches/ext/vb_voice_wsv.ok.npy
+Track 3/caches/ext/vox2_face_clip.float32.npy
+Track 3/caches/ext/vox2_face_clip.ok.npy
+Track 3/caches/ext/vox2_face_farl.float32.npy
+Track 3/caches/ext/vox2_face_farl.ok.npy
+Track 3/caches/ext/vox2_face_ibl.float32.npy
+Track 3/caches/ext/vox2_face_ibl.ok.npy
+Track 3/caches/ext/vox2_voice_ibv.float32.npy
+Track 3/caches/ext/vox2_voice_ibv.ok.npy
+Track 3/caches/ext/vox2_voice_r293.float32.npy
+Track 3/caches/ext/vox2_voice_r293.ok.npy
+Track 3/caches/ext/vox2_voice_simam.float32.npy
+Track 3/caches/ext/vox2_voice_simam.ok.npy
+Track 3/caches/ext/vox2_voice_wsv.float32.npy
+Track 3/caches/ext/vox2_voice_wsv.ok.npy
+Track 3/cv_run/w/split.json
+Track 3/outputs/eval_final/feat/face_clip.npy
+Track 3/outputs/eval_final/feat/face_farl.npy
+Track 3/outputs/eval_final/feat/voice_r293.npy
+Track 3/outputs/eval_final/feat/voice_sim.npy
+Track 3/outputs/eval_final/feat/voice_wsv.npy
+Track 3/outputs/eval_final/rows.csv
+Track 3/outputs/eval_final/ultra/ib_voice.npy
+Track 3/outputs/eval_final/ultra/ibl_face.npy
+Track 3/outputs/lid_v3/vox/lid/lid_0of2.csv
+Track 3/outputs/lid_v3/vox/lid/lid_1of2.csv
+Track 3/outputs/lid_v3/web/lid/lid_0of2.csv
+Track 3/outputs/lid_v3/web/lid/lid_1of2.csv
+Track 3/outputs/ultra/ib_own_flag_voice.npy
+Track 3/outputs/ultra/ibl_flag_face.npy
+Track 3/outputs/ultra/trials.npz
+Track 3/release/sub126c/trace_open.py
+Track 3/release/sub90c/local_eval_kit/folds.json
+Track 3/xj/hb.py
+Track 3/xj/xj1ib_10/gender/sub_score_v4_Bangla_unheard.txt
+Track 3/xj/xj1ib_10/gender/sub_score_v4_English_heard.txt
+Track 3/xj/xj1ib_10/no_gender/sub_score_v4_Bangla_unheard.txt
+Track 3/xj/xj1ib_10/no_gender/sub_score_v4_English_heard.txt
+Track 3/xj/xj_lib.py
+data/meta_file_train_set.csv
+data/train_set/features/faces/train_English_faces.csv
+data/train_set/features/voices/train_English_voices.csv
+data/train_set/train_set/train_English.txt
+flag_raw_s01_v3_adaface_simam100/metadata.csv
+flag_raw_s01_v3_adaface_simam100/voice_embeddings.float32.npy

@@ -1,0 +1,84 @@
+{
+ "system": "Bangla (per protocol) = (1-w) z(90c-X: sub90cx Bangla log-odds) + w z(P), P per protocol {'no_gender': 'HB-BV2', 'gender': 'HB-FIV'}, w {'no_gender': 0.2, 'gender': 0.2} = median of fold-nested choices on the FLAG-train kit CV OOF of this pair; z constants = each member's FLAG-train OOF. English (both protocols) = sub126b English files (bytes unchanged).",
+ "report": {
+  "no_gender": {
+   "partner": "HB-BV2",
+   "partner_dir": "hbbv2_10",
+   "w": 0.2,
+   "ws": [
+    0.25,
+    0.2,
+    0.2,
+    0.2,
+    0.15
+   ],
+   "oof_all": {
+    "x90": 13.03,
+    "hb": 15.58,
+    "nested_fused": 12.58
+   },
+   "oof_bengali_lid_subset": {
+    "n": 9645,
+    "x90": 13.45,
+    "hb": 15.95,
+    "fused": 13.44
+   },
+   "eval_spearman_bangla": {
+    "new_vs_90cx": 0.9962,
+    "hb_vs_90cx": 0.8868
+   }
+  },
+  "gender": {
+   "partner": "HB-FIV",
+   "partner_dir": "hbfiv_10",
+   "w": 0.2,
+   "ws": [
+    0.2,
+    0.3,
+    0.2,
+    0.25,
+    0.2
+   ],
+   "oof_all": {
+    "x90": 20.93,
+    "hb": 24.2,
+    "nested_fused": 20.3
+   },
+   "oof_bengali_lid_subset": {
+    "n": 9742,
+    "x90": 20.17,
+    "hb": 24.18,
+    "fused": 19.68
+   },
+   "eval_spearman_bangla": {
+    "new_vs_90cx": 0.9918,
+    "hb_vs_90cx": 0.7997
+   }
+  }
+ },
+ "files": {
+  "no_gender/sub_score_v4_Bangla_unheard.txt": {
+   "rows": 802,
+   "sha256": "53a3a1953262ae685d9c1c694f5dd8969da89e12d8f10fba578de86615985e1e"
+  },
+  "no_gender/sub_score_v4_English_heard.txt": {
+   "rows": 392,
+   "sha256": "06175e391f38ad552b06bc7861ea3a699e2d9136a123714d7c459928b412011c"
+  },
+  "gender/sub_score_v4_Bangla_unheard.txt": {
+   "rows": 716,
+   "sha256": "2525972bd26e76932e9e192204f9d5eb1b109324c816a98dc28d7b0f979c5a03"
+  },
+  "gender/sub_score_v4_English_heard.txt": {
+   "rows": 416,
+   "sha256": "6743f90b320ae0804d2f517763fa7395e9ae29e0c84900b27f7699dcf6f93c07"
+  }
+ },
+ "code_sha256": {
+  "fuse_bn2.py": "05db72ec77d53f7d3534828cc4dac50ac90e8a2676eb1ab620522cc259ef4b08",
+  "hb.py": "f289edce4a16b6e237492f216a8f49c06eb7b1c70a37d9c2f4f570d09cfb9d8f"
+ },
+ "zip_sha256": "dbd357022e5b10e50a504178a93fde4a44d2c3f8a34febfe8e88f5c86f106504",
+ "test_statistics_used": false,
+ "weights_tuned_on_eval": false
+}

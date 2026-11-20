@@ -1,0 +1,22 @@
+Track 3/outputs/lid_v3/vox/lid/lid_0of2.csv
+Track 3/outputs/lid_v3/vox/lid/lid_1of2.csv
+Track 3/release/sub126c/trace_open.py
+Track 3/release/sub90c/local_eval_kit/trials.csv.gz
+Track 3/submissions/.t3_sub126c_chk3_ineqdo44/sub126c_chk3.zip
+Track 3/submissions/t3_sub126b_chk3/sub126b_chk3.zip
+Track 3/submissions/t3_sub126c_chk3/sub126c_chk3.zip
+Track 3/submissions/t3_sub90cx/sub90cx.zip
+Track 3/xj/fuse_bn2.py
+Track 3/xj/hb.py
+Track 3/xj/hbbv2_oof_10.npz
+Track 3/xj/hbbv2_score_chk3/cos_no_gender_Bangla.npy
+Track 3/xj/hbbv2_score_chk3/no_gender/sub_score_v4_Bangla_unheard.txt
+Track 3/xj/hbfiv_oof_10.npz
+Track 3/xj/hbfiv_score_chk3/cos_gender_Bangla.npy
+Track 3/xj/hbfiv_score_chk3/gender/sub_score_v4_Bangla_unheard.txt
+Track 3/xj/s90cx_oof.npz
+Track 3/xj/xj_lib.py
+data/meta_file_train_set.csv
+data/train_set/features/faces/train_English_faces.csv
+data/train_set/features/voices/train_English_voices.csv
+data/train_set/train_set/train_English.txt

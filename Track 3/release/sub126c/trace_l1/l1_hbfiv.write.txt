@@ -1,0 +1,9 @@
+Track 3/xj/hbfiv_score_chk3/config.json
+Track 3/xj/hbfiv_score_chk3/cos_gender_Bangla.npy
+Track 3/xj/hbfiv_score_chk3/cos_gender_English.npy
+Track 3/xj/hbfiv_score_chk3/cos_no_gender_Bangla.npy
+Track 3/xj/hbfiv_score_chk3/cos_no_gender_English.npy
+Track 3/xj/hbfiv_score_chk3/gender/sub_score_v4_Bangla_unheard.txt
+Track 3/xj/hbfiv_score_chk3/gender/sub_score_v4_English_heard.txt
+Track 3/xj/hbfiv_score_chk3/no_gender/sub_score_v4_Bangla_unheard.txt
+Track 3/xj/hbfiv_score_chk3/no_gender/sub_score_v4_English_heard.txt

@@ -1,0 +1,65 @@
+{
+ "model": "XJ-1+IB+HB-PF2",
+ "members": {
+  "A": {
+   "dir": "xj1ib_10",
+   "oof": "xj1ib_oof_x1ib_10.npz",
+   "name": "XJ-1+IB"
+  },
+  "B": {
+   "dir": "hbpf2_10",
+   "oof": "hbpf2_oof_10.npz",
+   "name": "pf2"
+  }
+ },
+ "fusion": "(1-w) z_A + w z_B, w per protocol {'no_gender': 0.35, 'gender': 0.3} (train-OOF nested median)",
+ "constants_from": "each member's FLAG-train OOF on the kit CV trials",
+ "constants": {
+  "no_gender/A": {
+   "mu": 0.2646902342434521,
+   "sd": 0.3680977966587799
+  },
+  "no_gender/B": {
+   "mu": -0.5795406841576184,
+   "sd": 3.013969269257266
+  },
+  "gender/A": {
+   "mu": 0.36783926552468543,
+   "sd": 0.2875996979351905
+  },
+  "gender/B": {
+   "mu": -0.20805571648307886,
+   "sd": 1.8979057370015686
+  }
+ },
+ "report": {
+  "no_gender": {
+   "eval_spearman": {
+    "A_vs_B": 0.7697,
+    "AB_vs_XJ1IB": 0.9782,
+    "A_vs_XJ1IB": 1.0,
+    "B_vs_XJ1IB": 0.7697
+   },
+   "oof_eer_descriptive": {
+    "A": 14.49,
+    "B": 15.71,
+    "AB": 13.18,
+    "XJ1IB": 14.49
+   }
+  },
+  "gender": {
+   "eval_spearman": {
+    "A_vs_B": 0.6273,
+    "AB_vs_XJ1IB": 0.9749,
+    "A_vs_XJ1IB": 1.0,
+    "B_vs_XJ1IB": 0.6273
+   },
+   "oof_eer_descriptive": {
+    "A": 21.58,
+    "B": 24.88,
+    "AB": 20.7,
+    "XJ1IB": 21.58
+   }
+  }
+ }
+}

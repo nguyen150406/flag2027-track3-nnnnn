@@ -1,0 +1,27 @@
+{
+ "model": "XJ-1+IB",
+ "face": "btc+ada+arc+clipnf+clipnf2+farl+imagebind",
+ "voice": "btc+campplus+rdn+simam+sam100ft+r293+ecapa+imagebind",
+ "blocks": "each L2, concat / sqrt(n blocks)",
+ "ext": "XJ-U pool (MAV xjc set + VoxCeleb1 rows_vox), items with all encoders incl. IB",
+ "hidden": 256,
+ "outd": 128,
+ "epochs": 3,
+ "ratio": 4,
+ "drop": 0.7,
+ "seeds": [
+  0,
+  1000,
+  2000,
+  3000,
+  4000,
+  5000,
+  6000,
+  7000,
+  8000,
+  9000
+ ],
+ "v2": true,
+ "bnclip": true,
+ "nf": false
+}

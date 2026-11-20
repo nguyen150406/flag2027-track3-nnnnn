@@ -1,0 +1,62 @@
+{
+ "model": "HB-FIV",
+ "data": "cached features of ('vox2', 'vb') + FLAG-train pairs in S1",
+ "face": "clip+farl+ibl",
+ "voice": "simam+r293+wsv+ibv",
+ "S1": "xj_lib.train_nf defaults (256->128, drop .7, 3 epochs, ratio 4), 10 seeds, same-video pairs",
+ "S2": "CCA reg 0.1 k 128",
+ "attrs": "P(male) LR on pool m/f labels",
+ "fuser": "per-protocol LR [z1,z2,pmf,pmv,d,z1*d,z2*d]",
+ "dup_guard": 0.83,
+ "seeds": [
+  0,
+  1000,
+  2000,
+  3000,
+  4000,
+  5000,
+  6000,
+  7000,
+  8000,
+  9000
+ ],
+ "prereg": "PREREG_gate_all.txt 17/11 09:45 sub119a",
+ "pool": {
+  "voices": 57394,
+  "faces": 114786,
+  "ids": 20660,
+  "dup_dropped": [],
+  "lid_checked": 58327,
+  "lid_flagged": 56
+ },
+ "report": {
+  "no_gender": {
+   "S1": 17.12,
+   "S2": 20.82,
+   "HB_oof": 15.59,
+   "coef": {
+    "z1": 2.343,
+    "z2": 0.722,
+    "pmf": -0.429,
+    "pmv": -0.495,
+    "d": -1.076,
+    "z1d": -1.428,
+    "z2d": 0.736
+   }
+  },
+  "gender": {
+   "S1": 25.92,
+   "S2": 27.67,
+   "HB_oof": 24.2,
+   "coef": {
+    "z1": 1.679,
+    "z2": 0.64,
+    "pmf": -0.827,
+    "pmv": 0.281,
+    "d": 1.865,
+    "z1d": -1.944,
+    "z2d": 0.578
+   }
+  }
+ }
+}

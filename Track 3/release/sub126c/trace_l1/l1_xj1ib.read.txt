@@ -1,0 +1,44 @@
+Track 3/outputs/eval_final/feat/face_farl.npy
+Track 3/outputs/eval_final/feat/voice_campplus.npy
+Track 3/outputs/eval_final/feat/voice_ecapa.npy
+Track 3/outputs/eval_final/feat/voice_r293.npy
+Track 3/outputs/eval_final/feat/voice_rdn.npy
+Track 3/outputs/eval_final/feat/voice_sam100ft.npy
+Track 3/outputs/eval_final/feat/voice_sim.npy
+Track 3/outputs/eval_final/rows.csv
+Track 3/outputs/eval_final/ultra/face_clipnf.npy
+Track 3/outputs/eval_final/ultra/face_clipnf2.npy
+Track 3/outputs/eval_final/ultra/ib_face.npy
+Track 3/outputs/eval_final/ultra/ib_voice.npy
+Track 3/release/sub126c/trace_open.py
+Track 3/xj/xj1.py
+Track 3/xj/xj1ib.py
+Track 3/xj/xj1ib_10/config.json
+Track 3/xj/xj1ib_10/xj1ib_m0.pt
+Track 3/xj/xj1ib_10/xj1ib_m1.pt
+Track 3/xj/xj1ib_10/xj1ib_m2.pt
+Track 3/xj/xj1ib_10/xj1ib_m3.pt
+Track 3/xj/xj1ib_10/xj1ib_m4.pt
+Track 3/xj/xj1ib_10/xj1ib_m5.pt
+Track 3/xj/xj1ib_10/xj1ib_m6.pt
+Track 3/xj/xj1ib_10/xj1ib_m7.pt
+Track 3/xj/xj1ib_10/xj1ib_m8.pt
+Track 3/xj/xj1ib_10/xj1ib_m9.pt
+Track 3/xj/xj_ext.py
+Track 3/xj/xj_lib.py
+Track 3/xj/xja/eval_face_ada.float32.npy
+Track 3/xj/xjb/eval_face_arc.float32.npy
+Track 3/xj/xjc.py
+Track 3/xj/xju.py
+data/eval_set/evaluation_phase/gender/Bangla_valid.txt
+data/eval_set/evaluation_phase/gender/English_valid.txt
+data/eval_set/evaluation_phase/gender/features/Bangla_valid_faces.csv
+data/eval_set/evaluation_phase/gender/features/Bangla_valid_voices.csv
+data/eval_set/evaluation_phase/gender/features/English_valid_faces.csv
+data/eval_set/evaluation_phase/gender/features/English_valid_voices.csv
+data/eval_set/evaluation_phase/no_gender/Bangla_valid.txt
+data/eval_set/evaluation_phase/no_gender/English_valid.txt
+data/eval_set/evaluation_phase/no_gender/features/Bangla_valid_faces.csv
+data/eval_set/evaluation_phase/no_gender/features/Bangla_valid_voices.csv
+data/eval_set/evaluation_phase/no_gender/features/English_valid_faces.csv
+data/eval_set/evaluation_phase/no_gender/features/English_valid_voices.csv

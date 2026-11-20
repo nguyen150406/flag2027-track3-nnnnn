@@ -1,0 +1,6 @@
+Track 3/submissions/t3_sub90c_chk3/gender/sub_score_v4_Bangla_unheard.txt
+Track 3/submissions/t3_sub90c_chk3/gender/sub_score_v4_English_heard.txt
+Track 3/submissions/t3_sub90c_chk3/no_gender/sub_score_v4_Bangla_unheard.txt
+Track 3/submissions/t3_sub90c_chk3/no_gender/sub_score_v4_English_heard.txt
+Track 3/submissions/t3_sub90c_chk3/provenance.json
+Track 3/submissions/t3_sub90c_chk3/sub90c_chk3.zip
